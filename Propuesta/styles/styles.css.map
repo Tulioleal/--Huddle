@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "styles.scss",
+        "scss/body/_header.scss",
+        "scss/body/_main.scss",
+        "scss/body/_footer.scss",
+        "scss/_variables.scss",
+        "scss/_mixins.scss",
+        "scss/_madia.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}
