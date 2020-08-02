@@ -1,3 +1,7 @@
 @import'body/header';
 @import'body/main';
 @import'body/footer';
+
+.container{
+    @include flexColumn()
+}

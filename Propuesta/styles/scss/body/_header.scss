@@ -1,3 +1,56 @@
-@import'/styles/scss/variables';
-@import'/styles/scss/mixins';
-@import'/styles/scss/media';
+@import'../variables';
+@import'../mixins';
+@import'../media';
+
+*{
+    margin: 0em;
+    padding: 0em;
+    box-sizing: border-box;
+}
+
+.container{
+    header{
+        @include flexColumn();
+        
+        .header{
+            height: 7em;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            img{
+                height: max-content;
+                margin-left: $marginHeader;
+
+            }
+            button{
+                height: max-content;
+                margin-right: $marginHeader;
+            }
+        }
+        .contenido{
+            width: 70%;
+
+            @include flexColumn();
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+
+            align-self: center;
+
+            h1{
+                align-self: center;
+                
+            }
+            p{
+                align-self: center;
+                
+            }
+            button{
+                align-self: center;
+
+            }
+        }
+    }
+}

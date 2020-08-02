@@ -6,4 +6,7 @@
 @mixin tipoBody {
     font-family: 'Open Sans', sans-serif;
 }
-
+@mixin flexColumn {
+    display: flex;
+    flex-direction: column;
+}
