@@ -11,9 +11,19 @@
 .container{
     @include flexColumn();
 
-    .divisor{
-        width: 100%;
+    .divisorTop{
+
         @include marginTop();
+        display: flex;
+
+        img{
+            width: 100%;
+        }
+    }
+    
+    .divisorBottom{
+
+        @include marginBottom();
 
         img{
             width: 100%;
@@ -27,5 +37,9 @@ h1{
 
 p{
     @include tipoBody();
+}
+
+.fondoAzul{
+    background-color: $azulMP;
 }
 
