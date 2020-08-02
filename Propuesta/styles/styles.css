@@ -16,7 +16,7 @@
 }
 
 .container header .header {
-  height: 7em;
+  height: 13em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -44,6 +44,8 @@
 
 .container header .contenido {
   width: 70%;
+  height: 55vh;
+  margin-bottom: 9em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -51,9 +53,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -64,18 +66,27 @@
 }
 
 .container header .contenido h1 {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: .6em;
+  font-size: 3em;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
 }
 
 .container header .contenido p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3em;
+  width: 60%;
+  text-align: center;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
 }
 
 .container header .contenido button {
+  display: block;
+  margin: 3em 0em;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;

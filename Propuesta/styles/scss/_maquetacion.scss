@@ -2,6 +2,9 @@
 @import'body/main';
 @import'body/footer';
 
+body{
+}
+
 .container{
-    @include flexColumn()
+    @include flexColumn();
 }
