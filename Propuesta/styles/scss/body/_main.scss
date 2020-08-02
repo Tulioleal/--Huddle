@@ -1,3 +1,40 @@
 @import'../variables';
 @import'../mixins';
 @import'../media';
+
+.container{
+
+    #screenMockup{
+        @include flexColumn();
+        align-items: center;
+        @include marginX();
+        img{
+            width: 70%;
+        }
+
+    }
+
+    #divs{
+        display: flex;
+        justify-content: space-evenly;
+
+        @include marginX();
+
+        div{
+            // img{
+
+            // }
+            h1{
+                font-family: 'Open Sans';
+                font-size: 6em;
+                letter-spacing: .05em;
+            }
+            p{
+                color: grey;
+                font-size: 1.6em;
+                text-align: center;
+            }
+        }
+    }
+
+}

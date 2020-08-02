@@ -33,7 +33,7 @@
         .contenido{
             width: 70%;
             height: 55vh;
-            margin-bottom: 9em;
+            @include marginX();
             
             @include flexColumn();
             justify-content: flex-end;
@@ -43,14 +43,12 @@
             align-self: center;
             
             h1{
-                @include tipoHeader();
                 margin-bottom: .6em;
                 font-size: 3em;
                 align-self: center;
                 
             }
             p{
-                @include tipoBody();
                 font-size: 1.3em;
                 width: 60%;
                 text-align: center;
