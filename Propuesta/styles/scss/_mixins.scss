@@ -37,6 +37,34 @@ $margen : 4.3em;
 
 //Botton
 
+@mixin ButtonHeader{
+    font-size: 1em;
+    font-weight: 600;
+    @include tipoBody();
+    width: 9%;
+    height: 19%;
+    color: $rosa;
+    background-color: white;
+    border: .1em solid $rosa;
+    border-radius: 5rem;
+    box-shadow: 0em .5em 1em .1em hsla(322, 100%, 66% ,.1);
+}
+
+@mixin ButtonRound{
+    @include tipoBody();
+    font-size: 5em;
+    font-weight: 600;
+    width: 22%;
+    height: 17%;
+    color: white;
+    font-size: .9em;
+    border: none;
+    border-radius: 5rem;
+    background-color: $rosa;
+    box-shadow: 0em .5em 1em .1em rgba(0, 0, 0, 0.2);
+    
+}
+
 @mixin Button {
     @include tipoBody();
     font-weight: 600;
@@ -44,15 +72,5 @@ $margen : 4.3em;
     font-size: .9em;
     border: none;
     border-radius: .3rem;
-    background-color: $rosa;
-}
-
-@mixin ButtonRound{
-    @include tipoBody();
-    font-weight: 600;
-    color: white;
-    font-size: .9em;
-    border: none;
-    border-radius: 1rem;
     background-color: $rosa;
 }

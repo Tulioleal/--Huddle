@@ -2,6 +2,8 @@
 @import'body/main';
 @import'body/footer';
 
+@import'media';
+
 *{
     padding: 0em;
     margin: 0em;
@@ -58,6 +60,7 @@ h1{
 
 p{
     @include tipoBody();
+    line-height: $lineH;
 }
 
 .fondoAzul{
