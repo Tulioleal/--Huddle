@@ -33,6 +33,7 @@
     
 h1{
     @include tipoHeader();
+    color: $cyanMO;
 }
 
 p{

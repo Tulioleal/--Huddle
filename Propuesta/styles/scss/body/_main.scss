@@ -64,7 +64,8 @@
 
     .contenidoBottom{
 
-        display: flex;
+        height: 45vh;        
+        @include flexColumn();
         justify-content: center;
         align-items: center;
         align-content: center;
