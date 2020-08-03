@@ -300,49 +300,44 @@
 }
 
 .container #top1 {
+  background-image: url(/images/desktop/bg-section-top-desktop-1.svg);
   height: 11em;
   width: 100%;
-  background-image: url(/images/desktop/bg-section-top-desktop-1.svg);
   background-repeat: no-repeat;
-  background-position: bottom;
   background-size: cover;
 }
 
 .container #top2 {
+  background-image: url(/images/desktop/bg-section-top-desktop-2.svg);
   height: 11em;
   width: 100%;
-  background-image: url(/images/desktop/bg-section-top-desktop-2.svg);
   background-repeat: no-repeat;
-  background-position: bottom;
   background-size: cover;
 }
 
 .container #topFooter {
+  background-image: url(/images/desktop/bg-footer-top-desktop.svg);
   height: 11em;
   width: 100%;
-  background-image: url(/images/desktop/bg-footer-top-desktop.svg);
   background-repeat: no-repeat;
-  background-position: bottom;
   background-size: cover;
 }
 
 .container #bottom1 {
-  height: 11em;
-  width: 100%;
   background-image: url(/images/desktop/bg-section-bottom-desktop-1.svg);
   background-position: top;
+  height: 11em;
+  width: 100%;
   background-repeat: no-repeat;
-  background-position: bottom;
   background-size: cover;
 }
 
 .container #bottom2 {
-  height: 11em;
-  width: 100%;
   background-image: url(/images/desktop/bg-section-bottom-desktop-2.svg);
   background-position: top;
+  height: 11em;
+  width: 100%;
   background-repeat: no-repeat;
-  background-position: bottom;
   background-size: cover;
 }
 

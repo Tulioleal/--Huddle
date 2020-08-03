@@ -20,39 +20,30 @@
     }
 
     #top1{
-        height: 11em;
-        width: 100%;
         background-image: url(/images/desktop/bg-section-top-desktop-1.svg);
         @include backgroundDivisores();
     }
     #top2{
-        height: 11em;
-        width: 100%;
         background-image: url(/images/desktop/bg-section-top-desktop-2.svg);
         @include backgroundDivisores();
     }
     #topFooter{
-        height: 11em;
-        width: 100%;
         background-image: url(/images/desktop/bg-footer-top-desktop.svg);
         @include backgroundDivisores();
-
     }
 
     #bottom1{
-        height: 11em;
-        width: 100%;
         background-image: url(/images/desktop/bg-section-bottom-desktop-1.svg);
         background-position: top;
         @include backgroundDivisores();
 
     }
     #bottom2{
-        height: 11em;
-        width: 100%;
+
         background-image: url(/images/desktop/bg-section-bottom-desktop-2.svg);
         background-position: top;
         @include backgroundDivisores();
+
 
     }
 } 

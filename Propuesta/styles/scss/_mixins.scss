@@ -28,7 +28,8 @@ $margen : 4.3em;
 
 //Background divisores
 @mixin backgroundDivisores {
+    height: 11em;
+    width: 100%;
     background-repeat: no-repeat;
-    background-position: bottom;
     background-size: cover;
 }
