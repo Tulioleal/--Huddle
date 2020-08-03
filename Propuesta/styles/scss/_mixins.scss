@@ -1,3 +1,4 @@
+@import'variables';
 $margen : 4.3em;
 
 //Typografies
@@ -32,4 +33,26 @@ $margen : 4.3em;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+//Botton
+
+@mixin Button {
+    @include tipoBody();
+    font-weight: 600;
+    color: white;
+    font-size: .9em;
+    border: none;
+    border-radius: .3rem;
+    background-color: $rosa;
+}
+
+@mixin ButtonRound{
+    @include tipoBody();
+    font-weight: 600;
+    color: white;
+    font-size: .9em;
+    border: none;
+    border-radius: 1rem;
+    background-color: $rosa;
 }
