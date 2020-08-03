@@ -1,3 +1,59 @@
 @import'../variables';
 @import'../mixins';
 @import'../media';
+
+.container{
+
+    footer{
+        height: 50vh;
+        color: white;
+        background-color: $cyanMO;
+        display: flex;
+        justify-content: space-around;
+
+        div{
+            width: 24%;
+            @include flexColumn();
+            justify-content: space-evenly;
+
+            img{
+                width: 60%;
+            }
+        }
+
+        form{
+            width: 40%;
+            @include flexColumn();
+            justify-content: space-evenly;
+            padding: 5em 0em;
+
+            h1{
+                font-size: 1.5em;
+                text-transform: uppercase;
+                color: white;
+                font-weight: 700;
+            }
+            p{
+                width: 62%;
+                padding-bottom: 1.5em;
+            }
+            div{
+                width: 90%;
+                height: 20%;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                input{
+                    width: 64%;
+                    border: none;
+                    border-radius: .4em;
+                }
+                button{
+                    width: 28%;
+                    border-radius: .4em;
+                }
+            }
+        }
+    }
+}
