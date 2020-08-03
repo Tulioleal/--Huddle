@@ -1,6 +1,6 @@
-//Typografies
-
 $margen : 4.3em;
+
+//Typografies
 
 @mixin tipoHeader {
     font-family: 'Poppins', sans-serif;
@@ -8,10 +8,14 @@ $margen : 4.3em;
 @mixin tipoBody {
     font-family: 'Open Sans', sans-serif;
 }
+
+//Flex
 @mixin flexColumn {
     display: flex;
     flex-direction: column;
 }
+
+//Margins
 @mixin marginX {
     margin: $margen 0em;
 }
@@ -20,4 +24,11 @@ $margen : 4.3em;
 }
 @mixin marginBottom {
     margin-bottom: $margen;
+}
+
+//Background divisores
+@mixin backgroundDivisores {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
 }
