@@ -301,6 +301,7 @@
 
 .container #top1 {
   background-image: url(/images/desktop/bg-section-top-desktop-1.svg);
+  background-position: bottom;
   height: 11em;
   width: 100%;
   background-repeat: no-repeat;
@@ -309,6 +310,7 @@
 
 .container #top2 {
   background-image: url(/images/desktop/bg-section-top-desktop-2.svg);
+  background-position: bottom;
   height: 11em;
   width: 100%;
   background-repeat: no-repeat;
@@ -317,6 +319,7 @@
 
 .container #topFooter {
   background-image: url(/images/desktop/bg-footer-top-desktop.svg);
+  background-position: bottom;
   height: 11em;
   width: 100%;
   background-repeat: no-repeat;

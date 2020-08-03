@@ -21,14 +21,17 @@
 
     #top1{
         background-image: url(/images/desktop/bg-section-top-desktop-1.svg);
+        background-position: bottom;
         @include backgroundDivisores();
     }
     #top2{
         background-image: url(/images/desktop/bg-section-top-desktop-2.svg);
+        background-position: bottom;
         @include backgroundDivisores();
     }
     #topFooter{
         background-image: url(/images/desktop/bg-footer-top-desktop.svg);
+        background-position: bottom;
         @include backgroundDivisores();
     }
 
