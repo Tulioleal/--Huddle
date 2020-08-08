@@ -13,8 +13,8 @@
     display: grid;
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
-    -ms-grid-rows: .8fr .5fr .7fr .1fr 1fr .1fr 1fr .1fr 1fr .1fr 1fr .1fr 3fr;
-        grid-template-rows: .8fr .5fr .7fr .1fr 1fr .1fr 1fr .1fr 1fr .1fr 1fr .1fr 3fr;
+    -ms-grid-rows: 1fr .5fr 1fr .25fr 1fr .25fr 1fr .25fr 1fr .25fr .6fr .25fr 1.5fr;
+        grid-template-rows: 1fr .5fr 1fr .25fr 1fr .25fr 1fr .25fr 1fr .25fr .6fr .25fr 1.5fr;
   }
   .container .divisorTop, .container .divisorBottom {
     margin: 0em;
@@ -169,6 +169,74 @@
   }
   .container .contenidoBottom {
     height: 100%;
+    padding-top: 20%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .container .contenidoBottom h1 {
+    font-size: 1.5em;
+    width: 65%;
+    text-align: center;
+  }
+  .container .contenidoBottom button {
+    font-size: .75em;
+    width: 55%;
+    height: 10%;
+    -webkit-box-shadow: 0em 0.3em 0.5em 0.1em rgba(0, 0, 0, 0.2);
+            box-shadow: 0em 0.3em 0.5em 0.1em rgba(0, 0, 0, 0.2);
+  }
+  .container footer {
+    height: 100%;
+    padding: 0em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container footer div {
+    width: 85%;
+    height: 45%;
+    padding: 0em 0em 10% 0em;
+  }
+  .container footer form {
+    width: 85%;
+    height: 45%;
+    padding: 0em 0em 10% 0em;
+  }
+  .container footer form h1 {
+    font-size: 1.2em;
+  }
+  .container footer form p {
+    font-size: .90em;
+    width: 100%;
+    padding: 0em;
+  }
+  .container footer form div {
+    height: 35%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .container footer form div input {
+    width: 100%;
+    height: 40%;
+  }
+  .container footer form div button {
+    font-size: 1em;
+    width: 50%;
+    height: 40%;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
   }
 }
 
@@ -277,8 +345,8 @@
   border: none;
   border-radius: 5rem;
   background-color: #ff52bf;
-  -webkit-box-shadow: 0em 0.5em 1em 0.1em rgba(0, 0, 0, 0.2);
-          box-shadow: 0em 0.5em 1em 0.1em rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0em 0.3em 0.5em 0.1em rgba(0, 0, 0, 0.2);
+          box-shadow: 0em 0.3em 0.5em 0.1em rgba(0, 0, 0, 0.2);
   width: 32%;
   height: 15%;
 }
@@ -298,8 +366,8 @@
     display: grid;
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
-    -ms-grid-rows: .8fr .5fr .7fr .1fr 1fr .1fr 1fr .1fr 1fr .1fr 1fr .1fr 3fr;
-        grid-template-rows: .8fr .5fr .7fr .1fr 1fr .1fr 1fr .1fr 1fr .1fr 1fr .1fr 3fr;
+    -ms-grid-rows: 1fr .5fr 1fr .25fr 1fr .25fr 1fr .25fr 1fr .25fr .6fr .25fr 1.5fr;
+        grid-template-rows: 1fr .5fr 1fr .25fr 1fr .25fr 1fr .25fr 1fr .25fr .6fr .25fr 1.5fr;
   }
   .container .divisorTop, .container .divisorBottom {
     margin: 0em;
@@ -454,6 +522,74 @@
   }
   .container .contenidoBottom {
     height: 100%;
+    padding-top: 20%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .container .contenidoBottom h1 {
+    font-size: 1.5em;
+    width: 65%;
+    text-align: center;
+  }
+  .container .contenidoBottom button {
+    font-size: .75em;
+    width: 55%;
+    height: 10%;
+    -webkit-box-shadow: 0em 0.3em 0.5em 0.1em rgba(0, 0, 0, 0.2);
+            box-shadow: 0em 0.3em 0.5em 0.1em rgba(0, 0, 0, 0.2);
+  }
+  .container footer {
+    height: 100%;
+    padding: 0em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container footer div {
+    width: 85%;
+    height: 45%;
+    padding: 0em 0em 10% 0em;
+  }
+  .container footer form {
+    width: 85%;
+    height: 45%;
+    padding: 0em 0em 10% 0em;
+  }
+  .container footer form h1 {
+    font-size: 1.2em;
+  }
+  .container footer form p {
+    font-size: .90em;
+    width: 100%;
+    padding: 0em;
+  }
+  .container footer form div {
+    height: 35%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .container footer form div input {
+    width: 100%;
+    height: 40%;
+  }
+  .container footer form div button {
+    font-size: 1em;
+    width: 50%;
+    height: 40%;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
   }
 }
 
@@ -568,8 +704,8 @@
   border: none;
   border-radius: 5rem;
   background-color: #ff52bf;
-  -webkit-box-shadow: 0em 0.5em 1em 0.1em rgba(0, 0, 0, 0.2);
-          box-shadow: 0em 0.5em 1em 0.1em rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0em 0.3em 0.5em 0.1em rgba(0, 0, 0, 0.2);
+          box-shadow: 0em 0.3em 0.5em 0.1em rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 375px) {
@@ -587,8 +723,8 @@
     display: grid;
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
-    -ms-grid-rows: .8fr .5fr .7fr .1fr 1fr .1fr 1fr .1fr 1fr .1fr 1fr .1fr 3fr;
-        grid-template-rows: .8fr .5fr .7fr .1fr 1fr .1fr 1fr .1fr 1fr .1fr 1fr .1fr 3fr;
+    -ms-grid-rows: 1fr .5fr 1fr .25fr 1fr .25fr 1fr .25fr 1fr .25fr .6fr .25fr 1.5fr;
+        grid-template-rows: 1fr .5fr 1fr .25fr 1fr .25fr 1fr .25fr 1fr .25fr .6fr .25fr 1.5fr;
   }
   .container .divisorTop, .container .divisorBottom {
     margin: 0em;
@@ -743,6 +879,74 @@
   }
   .container .contenidoBottom {
     height: 100%;
+    padding-top: 20%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .container .contenidoBottom h1 {
+    font-size: 1.5em;
+    width: 65%;
+    text-align: center;
+  }
+  .container .contenidoBottom button {
+    font-size: .75em;
+    width: 55%;
+    height: 10%;
+    -webkit-box-shadow: 0em 0.3em 0.5em 0.1em rgba(0, 0, 0, 0.2);
+            box-shadow: 0em 0.3em 0.5em 0.1em rgba(0, 0, 0, 0.2);
+  }
+  .container footer {
+    height: 100%;
+    padding: 0em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container footer div {
+    width: 85%;
+    height: 45%;
+    padding: 0em 0em 10% 0em;
+  }
+  .container footer form {
+    width: 85%;
+    height: 45%;
+    padding: 0em 0em 10% 0em;
+  }
+  .container footer form h1 {
+    font-size: 1.2em;
+  }
+  .container footer form p {
+    font-size: .90em;
+    width: 100%;
+    padding: 0em;
+  }
+  .container footer form div {
+    height: 35%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .container footer form div input {
+    width: 100%;
+    height: 40%;
+  }
+  .container footer form div button {
+    font-size: 1em;
+    width: 50%;
+    height: 40%;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
   }
 }
 
@@ -881,8 +1085,8 @@
     display: grid;
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
-    -ms-grid-rows: .8fr .5fr .7fr .1fr 1fr .1fr 1fr .1fr 1fr .1fr 1fr .1fr 3fr;
-        grid-template-rows: .8fr .5fr .7fr .1fr 1fr .1fr 1fr .1fr 1fr .1fr 1fr .1fr 3fr;
+    -ms-grid-rows: 1fr .5fr 1fr .25fr 1fr .25fr 1fr .25fr 1fr .25fr .6fr .25fr 1.5fr;
+        grid-template-rows: 1fr .5fr 1fr .25fr 1fr .25fr 1fr .25fr 1fr .25fr .6fr .25fr 1.5fr;
   }
   .container .divisorTop, .container .divisorBottom {
     margin: 0em;
@@ -1037,6 +1241,74 @@
   }
   .container .contenidoBottom {
     height: 100%;
+    padding-top: 20%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .container .contenidoBottom h1 {
+    font-size: 1.5em;
+    width: 65%;
+    text-align: center;
+  }
+  .container .contenidoBottom button {
+    font-size: .75em;
+    width: 55%;
+    height: 10%;
+    -webkit-box-shadow: 0em 0.3em 0.5em 0.1em rgba(0, 0, 0, 0.2);
+            box-shadow: 0em 0.3em 0.5em 0.1em rgba(0, 0, 0, 0.2);
+  }
+  .container footer {
+    height: 100%;
+    padding: 0em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container footer div {
+    width: 85%;
+    height: 45%;
+    padding: 0em 0em 10% 0em;
+  }
+  .container footer form {
+    width: 85%;
+    height: 45%;
+    padding: 0em 0em 10% 0em;
+  }
+  .container footer form h1 {
+    font-size: 1.2em;
+  }
+  .container footer form p {
+    font-size: .90em;
+    width: 100%;
+    padding: 0em;
+  }
+  .container footer form div {
+    height: 35%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .container footer form div input {
+    width: 100%;
+    height: 40%;
+  }
+  .container footer form div button {
+    font-size: 1em;
+    width: 50%;
+    height: 40%;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
   }
 }
 
@@ -1137,8 +1409,8 @@ p {
     display: grid;
     -ms-grid-columns: 100%;
         grid-template-columns: 100%;
-    -ms-grid-rows: .8fr .5fr .7fr .1fr 1fr .1fr 1fr .1fr 1fr .1fr 1fr .1fr 3fr;
-        grid-template-rows: .8fr .5fr .7fr .1fr 1fr .1fr 1fr .1fr 1fr .1fr 1fr .1fr 3fr;
+    -ms-grid-rows: 1fr .5fr 1fr .25fr 1fr .25fr 1fr .25fr 1fr .25fr .6fr .25fr 1.5fr;
+        grid-template-rows: 1fr .5fr 1fr .25fr 1fr .25fr 1fr .25fr 1fr .25fr .6fr .25fr 1.5fr;
   }
   .container .divisorTop, .container .divisorBottom {
     margin: 0em;
@@ -1293,6 +1565,74 @@ p {
   }
   .container .contenidoBottom {
     height: 100%;
+    padding-top: 20%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .container .contenidoBottom h1 {
+    font-size: 1.5em;
+    width: 65%;
+    text-align: center;
+  }
+  .container .contenidoBottom button {
+    font-size: .75em;
+    width: 55%;
+    height: 10%;
+    -webkit-box-shadow: 0em 0.3em 0.5em 0.1em rgba(0, 0, 0, 0.2);
+            box-shadow: 0em 0.3em 0.5em 0.1em rgba(0, 0, 0, 0.2);
+  }
+  .container footer {
+    height: 100%;
+    padding: 0em;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container footer div {
+    width: 85%;
+    height: 45%;
+    padding: 0em 0em 10% 0em;
+  }
+  .container footer form {
+    width: 85%;
+    height: 45%;
+    padding: 0em 0em 10% 0em;
+  }
+  .container footer form h1 {
+    font-size: 1.2em;
+  }
+  .container footer form p {
+    font-size: .90em;
+    width: 100%;
+    padding: 0em;
+  }
+  .container footer form div {
+    height: 35%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .container footer form div input {
+    width: 100%;
+    height: 40%;
+  }
+  .container footer form div button {
+    font-size: 1em;
+    width: 50%;
+    height: 40%;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
   }
 }
 /*# sourceMappingURL=styles.css.map */

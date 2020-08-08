@@ -24,7 +24,7 @@
         display: grid;
         grid-template-columns: 100%;
         grid-template-rows: 
-        .8fr .5fr .7fr .1fr 1fr .1fr 1fr .1fr 1fr .1fr 1fr .1fr 3fr;
+        1fr .5fr 1fr .25fr 1fr .25fr 1fr .25fr 1fr .25fr .6fr .25fr 1.5fr;
 
         header{
             
@@ -172,6 +172,67 @@
         .contenidoBottom{
 
             height: 100%;
+            padding-top: 20%;
+            justify-content: flex-start;
+            h1{
+                font-size: 1.5em;
+                width: 65%;
+                text-align: center;
+            }
+            button{
+                font-size: .75em;
+                width: 55%;
+                height: 10%;
+                box-shadow: 0em .3em .5em .1em rgba(0, 0, 0, 0.2);
+
+            }
+        }
+
+        footer{
+            height: 100%;
+            padding: 0em;
+
+            flex-direction: column-reverse;
+            justify-content: space-between;
+            align-items: center;
+
+            div{
+                width: 85%;
+                height: 45%;
+                padding: 0em 0em 10% 0em;
+
+            }
+
+            form{
+                width: 85%;
+                height: 45%;
+                padding: 0em 0em 10% 0em;
+
+                h1{
+                    font-size: 1.2em;
+                }
+                p{
+                    font-size: .90em;
+                    width: 100%;
+                    padding: 0em;
+                }
+                div{
+                    height: 35%;
+                    flex-direction: column;
+                    justify-content: space-around;
+
+                    input{
+                        width: 100%;
+                        height: 40%;
+                    }
+                    button{
+                        font-size: 1em;
+                        width: 50%;
+                        height: 40%;
+                        align-self: flex-end;
+                    }
+                }
+            }
         }
     }
 }

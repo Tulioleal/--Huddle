@@ -61,8 +61,7 @@ $margen : 4.3em;
     border: none;
     border-radius: 5rem;
     background-color: $rosa;
-    box-shadow: 0em .5em 1em .1em rgba(0, 0, 0, 0.2);
-    
+    box-shadow: 0em .3em .5em .1em rgba(0, 0, 0, 0.2);    
 }
 
 @mixin Button {
