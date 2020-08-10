@@ -25,34 +25,32 @@
         background-size: 100%;
         @include backgroundDivisores();
     }
+    #top1, #top2, #topFooter{
+        background-position: bottom;
+        align-self: flex-end;
+    }
+    #bottom1, #bottom2{
+    background-position: top;
+    align-self: flex-start;
+    }
 
     #top1{
         background-image: url(/images/desktop/bg-section-top-desktop-1.svg);
-        background-position: bottom;
-        align-self: flex-end;
+
     }
     #top2{
         background-image: url(/images/desktop/bg-section-top-desktop-2.svg);
-        background-position: bottom;
-        align-self: flex-end;
     }
     #topFooter{
         background-image: url(/images/desktop/bg-footer-top-desktop.svg);
-        background-position: bottom;
-        align-self: flex-end;
     }
     
     #bottom1{
         background-image: url(/images/desktop/bg-section-bottom-desktop-1.svg);
-        background-position: top;
-        align-self: flex-start;
-        
     }
     #bottom2{
         
         background-image: url(/images/desktop/bg-section-bottom-desktop-2.svg);
-        background-position: top;
-        align-self: flex-start;       
     }
 } 
 
